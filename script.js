@@ -35,3 +35,20 @@ categories.forEach(category => {
     container.appendChild(section);
   }
 });
+const miniGallery = document.getElementById("mini-gallery");
+
+for (let i = 1; i <= 300; i++) {
+  const number = String(i).padStart(3, "0");
+
+  const section = document.createElement("section");
+  section.className = "page";
+
+  const image = document.createElement("img");
+  image.src = `images/mini-flashs${number}.jpg`;
+
+  image.onload = function () {
+    section.appendChild(image);
+  };
+
+  miniGallery.appendChild(section);
+}

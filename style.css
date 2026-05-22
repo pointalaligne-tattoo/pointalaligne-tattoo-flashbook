@@ -109,10 +109,10 @@ body {
   bottom: 16px;
   width: 44px;
   height: 44px;
+  border: none;
   border-radius: 50%;
   background: #111111;
   color: #f3e9df;
-  text-decoration: none;
   font-size: 28px;
   line-height: 40px;
   text-align: center;
