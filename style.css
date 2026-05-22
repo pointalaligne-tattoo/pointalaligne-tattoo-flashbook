@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background: #f3e9df;
+}
+
+.book {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page {
+  position: relative;
+}
+
+.overlay-button {
+  position: absolute;
+  display: block;
+  z-index: 9999;
+}
+
+/* BOUTON MINI */
+
+.mini-button {
+  left: 25%;
+  top: 40%;
+  width: 50%;
+  height:20%;
+  z-index: 9999;
+}
+
+/* BOUTON MAIL */
+
+.mail-button {
+  left: 12%;
+  top: 52%;
+  width: 32%;
+  height: 10%;
+  z-index: 9999;
+}
+
+/* BOUTON INSTAGRAM */
+
+.instagram-button {
+  left: 56%;
+  top: 52%;
+  width: 32%;
+  height: 10%;
+  z-index: 9999;
+}
+
+/* CURIOSITÉS */
+
+.curiosites-button {
+  left: 35%;
+  top: 30%;
+  width: 30%;
+  height: 10%;
+
+}
+
+/* FAUNE & FLORE */
+
+.faune-button {
+  left: 35%;
+  top: 45%;
+  width: 30%;
+  height: 10%;
+
+}
+
+/* ORNEMENTAL */
+
+.ornemental-button {
+  left: 35%;
+  top: 60%;
+  width: 30%;
+  height: 10%;
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .book {
+    max-width: 100%;
+  }
+
+  .page img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+.back-to-top {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #111111;
+  color: #f3e9df;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  z-index: 10000;
+  opacity: 0.8;
+}
