@@ -52,3 +52,14 @@ for (let i = 1; i <= 300; i++) {
 
   miniGallery.appendChild(section);
 }
+document.addEventListener("contextmenu", function(event) {
+  if (event.target.tagName === "IMG") {
+    event.preventDefault();
+  }
+});
+
+document.addEventListener("dragstart", function(event) {
+  if (event.target.tagName === "IMG") {
+    event.preventDefault();
+  }
+});

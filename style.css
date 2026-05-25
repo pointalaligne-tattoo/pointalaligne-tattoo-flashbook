@@ -119,3 +119,8 @@ body {
   z-index: 10000;
   opacity: 0.8;
 }
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
